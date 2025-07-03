@@ -1,4 +1,6 @@
-USE ALX_BOOK_STORE;
+-- Create the database
+CREATE DATABASE IF NOT EXISTS alx_book_store;
+USE alx_book_store;
 
 CREATE TABLE AUTHORS (
     AUTHOR_ID INT AUTO_INCREMENT PRIMARY KEY,
